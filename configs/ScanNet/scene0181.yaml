@@ -1,0 +1,15 @@
+inherit_from: configs/ScanNet/scannet.yaml
+tracking:
+  w_sdf_fs: 10
+  w_sdf_center: 500
+  w_sdf_tail: 50
+
+mapping:
+  bound: [[-1.0,8.9],[-0.9,8.0],[-1.0,3.6]]
+  marching_cubes_bound: [[-1.0,8.9],[-0.9,8.0],[-1.0,3.6]]
+  w_sdf_fs: 5
+  w_sdf_center: 500
+  w_sdf_tail: 10
+data:
+  input_folder: /media/funcdecl/Data/all_datasets/scannet/scans/scene0181_00
+  output: output/scannet/scans/scene0181_00
