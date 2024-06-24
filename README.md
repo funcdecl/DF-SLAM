@@ -1,3 +1,4 @@
+Official implementation of DF-SLAM: Dictionary Factors Representation for High-Fidelity Neural Implicit Dense Visual SLAM System
 ## Installation
 
 First you have to make sure that you have all dependencies in place.
